@@ -1,5 +1,5 @@
-# CMC Workshop 2016 Website
+# Mobile Services and edge Computing Workshop 2016 Website
 
-web pages for [CMC Workshop 2016]()
+hosted at: [https://www.cs.helsinki.fi/group/close/edge-computing-2016/]()
 
-© CMC Workshop 2016
+© MS&EC Workshop 2016
