@@ -218,6 +218,10 @@ footer a, footer a:hover {
   margin-left: -145px; 
 }
 
+#jussi {
+  padding: 0 0 0 15%;
+}
+
 /* 03. SPEAKERS SETTINGS ============================================ */
 
 .speakers {
@@ -250,7 +254,7 @@ footer a, footer a:hover {
 .speakers h4 span {
 	display: block;
 	position: relative;
-	left: -40px;
+	left: 0px;
 	top: 10px;
 	font-size: 20px;
 	background: none;
