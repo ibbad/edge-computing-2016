@@ -160,7 +160,7 @@ table div {
 
 #content ul li { 
   list-style-type: none;
-  /*background: url(../resources/bullet.png) no-repeat;*/
+  list-style-image: url(../resources/bullet.png);
   padding: 0 0 0px 0px;
   line-height: 1.5em;
 }
