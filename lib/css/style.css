@@ -30,6 +30,10 @@ h5 {
   font: normal 120% arial;
 }
 
+td {
+    text-align: justify;
+}
+
 h6 {
   color: #888;
   font: normal 95% arial;
