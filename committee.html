@@ -113,6 +113,7 @@
 
       </div>
     </div>
+    <iframe id="video1" width="0" height="0" src="https://www.youtube.com/embed/_1w2aASUpWQ?enablejsapi" frameborder="0"></iframe>
   </footer>
   <!-- FOOTER SECTION END-->
   
@@ -121,5 +122,24 @@
   <script src="lib/js/jquery-1.11.1.js"></script>
   <!-- BOOTSTRAP SCRIPTS  -->
   <script src="lib/js/bootstrap.js"></script>
+  <script>
+
+  var kkeys = [], code = "38,38,40,40,37,39,37,39,66,65";
+
+  $(document).keydown(function(e) {
+
+  kkeys.push( e.keyCode );
+
+  if ( kkeys.toString().indexOf( code ) >= 0 ) {
+
+    $(document).unbind('keydown',arguments.callee);
+    
+    // do something awesome
+    console.log("Worked!");
+    $("#video1")[0].src += "&autoplay=1";
+  
+  }
+
+});</script>
 </body>
 </html>
